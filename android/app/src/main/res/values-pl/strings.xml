@@ -67,8 +67,6 @@
     <string name="download_country_failed">Nie udało się pobrać %s</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Dodaj nowy zestaw</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Kolor zakładki</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Nazwa zestawu zakładek</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -869,6 +867,7 @@
     <string name="track_recording_toast_nothing_to_save">Trasa jest pusta - nic do zapisania</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Nie można wyświetlić okna dialogowego wyboru folderu, ponieważ na urządzeniu nie zainstalowano odpowiedniej aplikacji. Proszę zainstalować aplikację menedżera plików i spróbować ponownie</string>
+    <string name="uri_open_location_failed">Brak zainstalowanej aplikacji, która może otworzyć lokalizację</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Adres/Blok</string>
@@ -1282,9 +1281,9 @@
     <string name="type.highway.motorway_link.tunnel">Tunel</string>
     <string name="type.highway.path">Ścieżka</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Ścieżka</string>
+    <string name="type.highway.path.difficult">Trudny lub słabo widoczny szlak</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Ścieżka</string>
+    <string name="type.highway.path.expert">Bardzo trudny lub niedostrzegalny szlak</string>
     <string name="type.highway.path.bicycle">Ścieżka dla rowerów</string>
     <string name="type.highway.footway.bicycle">Ścieżka dla rowerów</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

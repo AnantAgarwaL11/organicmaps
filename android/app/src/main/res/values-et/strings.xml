@@ -61,8 +61,6 @@
     <string name="download_country_failed">%s allalaadimine ebaõnnestus</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Lisa uus loetelu</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Järjehoidja värv</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Järjehoidjate loetelu nimi</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -855,6 +853,7 @@
     <string name="track_recording_toast_nothing_to_save">Rada on tühi - ei ole midagi salvestada</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Kaustavaliku dialoogi ei ole võimalik kuvada, sest teie seadmesse ei ole paigaldatud sobivat rakendust. Palun installige failihaldurirakendus ja proovige uuesti.</string>
+    <string name="uri_open_location_failed">Ei ole paigaldatud rakendust, mis saaks asukoha avada</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Aadress/plokk</string>
@@ -1270,9 +1269,9 @@
     <string name="type.highway.motorway_link.tunnel">Tunnel</string>
     <string name="type.highway.path">Rada</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Rada</string>
+    <string name="type.highway.path.difficult">Raske või halvasti nähtav rada</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Rada</string>
+    <string name="type.highway.path.expert">Väga raske või eristamatu rada</string>
     <string name="type.highway.path.bicycle">Jalgratta- ja jalgtee</string>
     <string name="type.highway.footway.bicycle">Jalgratta- ja jalgtee</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

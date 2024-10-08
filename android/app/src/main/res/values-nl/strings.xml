@@ -67,8 +67,6 @@
     <string name="download_country_failed">%s download is mislukt</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Voeg nieuwe groep toe</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Bladwijzerkleur</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Naam van bladwijzergroep</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -863,6 +861,7 @@
     <string name="track_recording_toast_nothing_to_save">Route is leeg - niets om op te slaan</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Kan het dialoogvenster voor het selecteren van mappen niet weergeven omdat er geen geschikte app op uw apparaat is geïnstalleerd. Installeer een app voor bestandsbeheer en probeer het opnieuw</string>
+    <string name="uri_open_location_failed">Geen app geïnstalleerd die de locatie kan openen</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Adres/blok</string>
@@ -1275,9 +1274,9 @@
     <string name="type.highway.motorway_link.tunnel">Tunnel</string>
     <string name="type.highway.path">Pad</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Pad</string>
+    <string name="type.highway.path.difficult">Moeilijk of slecht zichtbaar pad</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Pad</string>
+    <string name="type.highway.path.expert">Zeer moeilijk of niet te onderscheiden spoor</string>
     <string name="type.highway.path.bicycle">Fietspad</string>
     <string name="type.highway.footway.bicycle">Fietspad</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

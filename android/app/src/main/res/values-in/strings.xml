@@ -68,8 +68,6 @@
     <string name="download_country_failed">%s gagal diunduh</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Tambahkan Set baru</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Warna Penanda</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Nama Set Penanda</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -815,6 +813,7 @@
     <string name="track_recording_toast_nothing_to_save">Jalur kosong - tidak ada yang bisa disimpan</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Tidak dapat menampilkan dialog pemilihan folder karena tidak ada aplikasi yang sesuai yang diinstal pada perangkat Anda. Instal aplikasi pengelola file dan coba lagi</string>
+    <string name="uri_open_location_failed">Tidak ada Aplikasi yang diinstal yang dapat membuka lokasi</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Alamat/Blokir</string>
@@ -1168,9 +1167,9 @@
     <string name="type.highway.motorway_link.tunnel">Terowongan</string>
     <string name="type.highway.path">Jalur</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Jalur</string>
+    <string name="type.highway.path.difficult">Jejak yang sulit atau kurang terlihר)</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Jalur</string>
+    <string name="type.highway.path.expert">Jejak yang sangat sulit atau tidak dapat dibedakם)</string>
     <string name="type.highway.path.bicycle">Jalur</string>
     <string name="type.highway.footway.bicycle">Jalur</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

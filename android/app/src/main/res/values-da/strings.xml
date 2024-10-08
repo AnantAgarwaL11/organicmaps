@@ -67,8 +67,6 @@
     <string name="download_country_failed">%s download mislykkedes</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Tilføj nyt sæt</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Bogmærke Farve</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Indstil bogmærkenavn</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -811,6 +809,7 @@
     <string name="track_recording_toast_nothing_to_save">Ruten er tom - der er ikke noget at gemme</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Kan ikke vise dialogboksen til valg af mappe, fordi der ikke er installeret en passende app på din enhed. Installer venligst en filhåndteringsapp, og prøv igen</string>
+    <string name="uri_open_location_failed">Ingen app installeret, der kan åbne stedet</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Adresse/blok</string>
@@ -1158,9 +1157,9 @@
     <string name="type.highway.motorway_link.tunnel">Tunnel</string>
     <string name="type.highway.path">Sti</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Sti</string>
+    <string name="type.highway.path.difficult">Vanskelig eller dårligt synlig sti</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Sti</string>
+    <string name="type.highway.path.expert">Meget svær eller umulig at skelne fra hinanden</string>
     <string name="type.highway.path.bicycle">Sti</string>
     <string name="type.highway.footway.bicycle">Sti</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

@@ -67,8 +67,6 @@
     <string name="download_country_failed">הורדה של %s נכשלה</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">הוסף רשימה חדשה</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">צבע סימניה</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">שם רשימת הסימניות</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -856,6 +854,7 @@
     <string name="track_recording_toast_nothing_to_save">המסלול ריק - אין מה לשמור</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">לא ניתן להציג תיבת דו-שיח לבחירת תיקיות מכיוון שלא מותקנת אפליקציה מתאימה במכשיר שלך. אנא התקן אפליקציית מנהל קבצים ונסה שוב</string>
+    <string name="uri_open_location_failed">לא מותקנת אפליקציה שיכולה לפתוח את המיקום</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">כתובת/שכונה</string>
@@ -1271,9 +1270,9 @@
     <string name="type.highway.motorway_link.tunnel">מִנהָרָה</string>
     <string name="type.highway.path">שביל</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">רמה 3/6) שביל קשה או לא ברור)</string>
+    <string name="type.highway.path.difficult">שביל קשה או לא נראה לעין</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">רמה 4+/6) מסלול למומחים או ללא שבילים מסודרים)</string>
+    <string name="type.highway.path.expert">מסלול קשה מאוד או בלתי ניתן להבחנה</string>
     <string name="type.highway.path.bicycle">שביל להולכי רגל ואופניים</string>
     <string name="type.highway.footway.bicycle">שביל להולכי רגל ואופניים</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

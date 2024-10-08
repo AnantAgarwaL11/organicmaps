@@ -583,9 +583,24 @@ void Framework::ReplaceBookmark(kml::MarkId markId, kml::BookmarkData & bm)
   m_work.GetBookmarkManager().GetEditSession().UpdateBookmark(markId, bm);
 }
 
+void Framework::ReplaceTrack(kml::TrackId trackId, kml::TrackData & trackData)
+{
+  m_work.GetBookmarkManager().GetEditSession().UpdateTrack(trackId, trackData);
+}
+
+void Framework::ChangeTrackColor(kml::TrackId trackId, dp::Color color)
+{
+  m_work.GetBookmarkManager().GetEditSession().ChangeTrackColor(trackId, color);
+}
+
 void Framework::MoveBookmark(kml::MarkId markId, kml::MarkGroupId curCat, kml::MarkGroupId newCat)
 {
   m_work.GetBookmarkManager().GetEditSession().MoveBookmark(markId, curCat, newCat);
+}
+
+void Framework::MoveTrack(kml::TrackId trackId, kml::MarkGroupId curCat, kml::MarkGroupId newCat)
+{
+  m_work.GetBookmarkManager().GetEditSession().MoveTrack(trackId, curCat, newCat);
 }
 
 void Framework::ExecuteMapApiRequest()

@@ -70,8 +70,6 @@
     <string name="download_country_failed">%s, échec lors du téléchargement</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Créer une nouvelle liste</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Couleur du signet</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Nom du groupe de signets</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -870,6 +868,7 @@
     <string name="track_recording_toast_nothing_to_save">L\'itinéraire est vide - il n\'y a rien à sauvegarder</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Impossible d\'afficher la boîte de dialogue de sélection des dossiers car aucune application appropriée n\'est installée sur votre appareil. Veuillez installer une application de gestion de fichiers et réessayer</string>
+    <string name="uri_open_location_failed">Aucune application installée ne permet d\'ouvrir l\'emplacement</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Adresse/Bloc</string>
@@ -1271,9 +1270,9 @@
     <string name="type.highway.motorway_link.tunnel">Tunnel</string>
     <string name="type.highway.path">Chemin</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Chemin</string>
+    <string name="type.highway.path.difficult">Sentier difficile ou peu visibl</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Chemin</string>
+    <string name="type.highway.path.expert">Sentier très difficile ou indiscernabl</string>
     <string name="type.highway.path.bicycle">Chemin</string>
     <string name="type.highway.footway.bicycle">Chemin</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

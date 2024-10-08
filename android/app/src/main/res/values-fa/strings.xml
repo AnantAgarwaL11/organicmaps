@@ -68,8 +68,6 @@
     <string name="download_country_failed">%s دانلود با شکست مواجه شد</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">اضافه کردن مجموعه جدید</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">رنگ نشانه</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
     <string name="bookmarks">نشانه‌ها</string>
     <!-- "Bookmarks and Tracks" dialog title, also sync it with iphone/plist.txt -->
@@ -811,6 +809,7 @@
     <string name="track_recording_toast_nothing_to_save">مسیر خالی است - چیزی برای ذخیره کردن وجود ندارد</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">امکان نمایش گفتگوی انتخاب پوشه وجود ندارد زیرا برنامه مناسبی روی دستگاه شما نصب نشده است. لطفاً یک برنامه مدیریت فایل نصب کنید و دوباره امتحان کنید</string>
+    <string name="uri_open_location_failed">هیچ برنامه ای نصب نشده است که بتواند مکان را باز کند</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">آدرس/بلاک</string>
@@ -1084,9 +1083,9 @@
     <string name="type.highway.motorway_link.tunnel">تونل</string>
     <string name="type.highway.path">مسیر</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">مسیر</string>
+    <string name="type.highway.path.difficult">مسیر دشوار یا ضعیف قابل مشاهده است</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">مسیر</string>
+    <string name="type.highway.path.expert">مسیر بسیار دشوار یا غیر قابل تشخیص</string>
     <string name="type.highway.path.bicycle">مسیر</string>
     <string name="type.highway.footway.bicycle">مسیر</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

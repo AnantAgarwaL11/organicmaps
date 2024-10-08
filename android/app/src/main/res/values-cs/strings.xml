@@ -67,8 +67,6 @@
     <string name="download_country_failed">Stahování selhalo: %s</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Přidat novou skupinu záložek</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Barva záložky</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Název záložky</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -828,6 +826,7 @@
     <string name="track_recording_toast_nothing_to_save">Trasa je prázdná - není co ukládat</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Nelze zobrazit dialogové okno pro výběr složky, protože v zařízení není nainstalována žádná vhodná aplikace. Nainstalujte si prosím aplikaci pro správu souborů a zkuste to znovu</string>
+    <string name="uri_open_location_failed">Není nainstalována žádná aplikace, která by mohla otevřít umístění</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Adresa/blok</string>
@@ -1185,9 +1184,9 @@
     <string name="type.highway.motorway_link.tunnel">Tunel</string>
     <string name="type.highway.path">Cesta</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Cesta</string>
+    <string name="type.highway.path.difficult">Obtížná nebo špatně viditelná stezka</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Cesta</string>
+    <string name="type.highway.path.expert">Velmi obtížná nebo nezřetelná stopa</string>
     <string name="type.highway.path.bicycle">Cesta</string>
     <string name="type.highway.footway.bicycle">Cesta</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

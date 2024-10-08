@@ -69,8 +69,6 @@
     <string name="download_country_failed">การดาวน์โหลด %s ล้มเหลว</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">เพิ่มชุดใหม่</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">สีของบุ๊กมาร์ก</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">ชื่อของชุดบุ๊กมาร์ก</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -814,6 +812,7 @@
     <string name="track_recording_toast_nothing_to_save">เส้นทางว่างเปล่า - ไม่มีอะไรจะบันทึก</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">ไม่สามารถแสดงกล่องโต้ตอบการเลือกโฟลเดอร์ได้เนื่องจากไม่ได้ติดตั้งแอปที่เหมาะสมในอุปกรณ์ของคุณ โปรดติดตั้งแอปตัวจัดการไฟล์แล้วลองอีกครั้ง</string>
+    <string name="uri_open_location_failed">ไม่มีการติดตั้งแอปที่สามารถเปิดตำแหน่งได้</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">ที่อยู่/บล็อค</string>
@@ -1175,9 +1174,9 @@
     <string name="type.highway.motorway_link.tunnel">อุโมงค์</string>
     <string name="type.highway.path">เส้นทาง</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">เส้นทาง</string>
+    <string name="type.highway.path.difficult">เส้นทางที่ยากลำบากหรือมองเห็นได้ไม่ดี</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">เส้นทาง</string>
+    <string name="type.highway.path.expert">เส้นทางที่ยากมากหรือแยกไม่ออก</string>
     <string name="type.highway.path.bicycle">เส้นทาง</string>
     <string name="type.highway.footway.bicycle">เส้นทาง</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

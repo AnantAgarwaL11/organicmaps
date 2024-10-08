@@ -67,8 +67,6 @@
     <string name="download_country_failed">Il download di %s non è riuscito</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Aggiungi nuovo elenco</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Colore Luogo preferito</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Nome dell\'elenco</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -850,6 +848,7 @@
     <string name="track_recording_toast_nothing_to_save">Il percorso è vuoto - non c\'è nulla da salvare</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Impossibile visualizzare la finestra di selezione delle cartelle perché sul suo dispositivo non è installata alcuna applicazione adatta. Installi un\'app di gestione file e riprovi</string>
+    <string name="uri_open_location_failed">Non c\'è un\'app installata che possa aprire la posizione</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Indirizzo/Blocco</string>

@@ -70,8 +70,6 @@
     <string name="download_country_failed">Не ўдалося спампаваць %s</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Дадаць спіс</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Колер закладкі</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Назва спісу закладак</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -856,6 +854,7 @@
     <string name="track_recording_toast_nothing_to_save">Маршрут пусты - няма чаго захоўваць</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Немагчыма адлюстраваць дыялогавае акно выбару папкі, таму што на вашай прыладзе не ўсталявана адпаведная праграма. Усталюйце праграму для кіравання файламі і паўтарыце спробу</string>
+    <string name="uri_open_location_failed">Не ўстаноўлена праграма, якая можа адкрыць месцазнаходжанне</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Адрас/Блок</string>
@@ -1048,8 +1047,16 @@
     <string name="type.highway.motorway_link.bridge">Мост</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.motorway_link.tunnel">Тунэль</string>
+    <string name="type.highway.path">Сцежка</string>
+    <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
+    <string name="type.highway.path.difficult">Складаная ці дрэнна бачная сцежка</string>
+    <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
+    <string name="type.highway.path.expert">Вельмі складаная ці неадметная сцежка</string>
+    <string name="type.highway.path.bicycle">Сцежка</string>
+    <string name="type.highway.footway.bicycle">Сцежка</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
     <string name="type.highway.path.bridge">Мост</string>
+    <string name="type.highway.path.horse">Сцежка</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.path.tunnel">Тунэль</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
@@ -1116,6 +1123,7 @@
     <string name="type.highway.unclassified.bridge">Мост</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.unclassified.tunnel">Тунэль</string>
+    <string name="type.area_highway.path">Сцежка</string>
     <string name="type.area_highway.trunk">Траса</string>
 
     <!-- SECTION: Types: Historic -->

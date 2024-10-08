@@ -67,8 +67,6 @@
     <string name="download_country_failed">%s</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Thêm Bộ Mới</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Đánh dấu Màu sắc</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Đánh dấu Tên Bộ</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -812,6 +810,7 @@
     <string name="track_recording_toast_nothing_to_save">Tuyến đường trống - không có gì để lưu</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Không thể hiển thị hộp thoại chọn thư mục vì không có ứng dụng phù hợp nào được cài đặt trên thiết bị của bạn. Vui lòng cài đặt ứng dụng quản lý tệp và thử lại</string>
+    <string name="uri_open_location_failed">Không có ứng dụng nào được cài đặt có thể mở vị trí</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Địa chỉ/Khối</string>
@@ -1171,9 +1170,9 @@
     <string name="type.highway.motorway_link.tunnel">Đường hầm</string>
     <string name="type.highway.path">Đường</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Đường</string>
+    <string name="type.highway.path.difficult">Đường đi khó hoặc khó nhìn thấy</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Đường</string>
+    <string name="type.highway.path.expert">Đường đi rất khó khăn hoặc không thể phân biệt được</string>
     <string name="type.highway.path.bicycle">Đường</string>
     <string name="type.highway.footway.bicycle">Đường</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

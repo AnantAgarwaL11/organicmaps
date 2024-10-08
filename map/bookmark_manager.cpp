@@ -2316,6 +2316,20 @@ void BookmarkManager::UpdateBookmark(kml::MarkId bmID, kml::BookmarkData const &
     SetLastEditedBmColor(bookmark->GetColor());
 }
 
+void BookmarkManager::ChangeTrackColor(kml::TrackId trackId, dp::Color color)
+{
+  CHECK_THREAD_CHECKER(m_threadChecker, ());
+  auto * track = GetTrackForEdit(trackId);
+  track->SetColor(color);
+}
+
+void BookmarkManager::UpdateTrack(kml::TrackId trackId, kml::TrackData const & trackData)
+{
+  CHECK_THREAD_CHECKER(m_threadChecker, ());
+  auto * track = GetTrackForEdit(trackId);
+  track->setData(trackData);
+}
+
 kml::MarkGroupId BookmarkManager::LastEditedBMCategory()
 {
   CHECK_THREAD_CHECKER(m_threadChecker, ());
@@ -3634,6 +3648,16 @@ void BookmarkManager::EditSession::MoveBookmark(
 void BookmarkManager::EditSession::UpdateBookmark(kml::MarkId bmId, kml::BookmarkData const & bm)
 {
   return m_bmManager.UpdateBookmark(bmId, bm);
+}
+
+void BookmarkManager::EditSession::UpdateTrack(kml::TrackId trackId, kml::TrackData const & trackData)
+{
+  return m_bmManager.UpdateTrack(trackId,trackData);
+}
+
+void BookmarkManager::EditSession::ChangeTrackColor(kml::TrackId trackId, dp::Color color)
+{
+  m_bmManager.ChangeTrackColor(trackId, color);
 }
 
 void BookmarkManager::EditSession::AttachBookmark(kml::MarkId bmId, kml::MarkGroupId groupId)

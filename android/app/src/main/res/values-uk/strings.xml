@@ -70,8 +70,6 @@
     <string name="download_country_failed">Не вдалося завантажити %s</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Додати список</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Колір мiтки</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Назва списка мiток</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -872,6 +870,7 @@
     <string name="track_recording_toast_nothing_to_save">Маршрут порожній - нічого зберігати</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Неможливо відобразити діалогове вікно вибору папки, оскільки на вашому пристрої не встановлено відповідну програму. Будь ласка, встановіть файловий менеджер і спробуйте ще раз</string>
+    <string name="uri_open_location_failed">Не встановлено додаток, який може відкрити локацію</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Адреса/блок</string>
@@ -1286,9 +1285,9 @@
     <string name="type.highway.motorway_link.tunnel">Тунель</string>
     <string name="type.highway.path">Стежка</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Стежка</string>
+    <string name="type.highway.path.difficult">Складна або погано видима стежка</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Стежка</string>
+    <string name="type.highway.path.expert">Дуже складна або невиразна стежка</string>
     <string name="type.highway.path.bicycle">Велопішохідна доріжка</string>
     <string name="type.highway.footway.bicycle">Велопішохідна доріжка</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

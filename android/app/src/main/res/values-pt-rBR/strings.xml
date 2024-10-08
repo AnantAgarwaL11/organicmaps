@@ -63,8 +63,6 @@
     <string name="download_country_failed">O download de %s falhou</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Adicionar novo conjunto</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Cor do favorito</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Nome do conjunto de favoritos</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -213,7 +211,7 @@
     <!-- Confirmation for OpenStreetMap log out. -->
     <string name="osm_log_out_confirmation">Você tem certeza de que deseja sair da sua conta do OpenStreetMap?</string>
     <!-- Title for tracks category in bookmarks manager -->
-    <string name="tracks_title">Percursos</string>
+    <string name="tracks_title">Trilhas</string>
     <!-- Length of track in cell that describes route -->
     <string name="length">Comprimento</string>
     <string name="share_my_location">Compartilhar a minha localização</string>
@@ -283,7 +281,7 @@
     <!-- Displayed in a dialog that appears when a user tries to delete a map while the app is in the follow route mode -->
     <string name="downloader_delete_map_while_routing_dialog">Favor parar a navegação para apagar o mapa.</string>
     <!-- PointsInDifferentMWM -->
-    <string name="routing_failed_cross_mwm_building">Só podem ser criadas rotas que estejam completamente contidas num único mapa.</string>
+    <string name="routing_failed_cross_mwm_building">Só podem ser criadas rotas que estejam completamente contidas em um único mapa.</string>
     <!-- Context menu item for downloader. -->
     <string name="downloader_download_map">Baixar o mapa</string>
     <!-- Item status in downloader. -->
@@ -339,10 +337,10 @@
     <string name="blue_gray">Azul escuro</string>
 
     <!-- SECTION: Routing dialogs strings -->
-    <string name="dialog_routing_disclaimer_title">Ao seguir a rota, lembre-se de que:</string>
+    <string name="dialog_routing_disclaimer_title">Ao seguir a rota, lembre-se que:</string>
     <string name="dialog_routing_disclaimer_priority">— As condições da estrada, as leis de trânsito e as sinalizações da pista sempre terão prioridade acima das sugestões de navegação;</string>
-    <string name="dialog_routing_disclaimer_precision">— O mapa pode estar desatualizado, e a rota indicada pode não ser a melhor maneira de chegar ao destino;</string>
-    <string name="dialog_routing_disclaimer_recommendations">— As rotas indicadas devem ser tratadas apenas como sugestões;</string>
+    <string name="dialog_routing_disclaimer_precision">— O mapa pode estar desatualizado e a rota indicada pode não ser a melhor maneira de chegar ao destino;</string>
+    <string name="dialog_routing_disclaimer_recommendations">— As rotas indicadas devem ser consideradas apenas como sugestões;</string>
     <string name="dialog_routing_disclaimer_borders">— Tenha cautela com rotas em zonas fronteiriças: as rotas criadas por nosso aplicativo podem algumas vezes cruzar fronteiras nacionais em locais não autorizados.</string>
     <string name="dialog_routing_disclaimer_beware">Fique sempre alerta nas estradas!</string>
     <string name="dialog_routing_check_gps">Verifique o sinal do GPS</string>
@@ -570,6 +568,8 @@
         <item quantity="other">%d favoritos</item>
     </plurals>
     <string name="bookmarks_create_new_group">Criar nova lista</string>
+    <!-- Bookmark categories screen, button that opens folder selection dialog to import KML/KMZ/GPX/KMB files -->
+    <string name="bookmarks_import">Importar favoritos e trilhas</string>
     <string name="bookmarks_error_message_share_general">Impossível compartilhar devido a um erro do aplicativo</string>
     <string name="bookmarks_error_title_share_empty">Erro de compartilhamento</string>
     <string name="bookmarks_error_message_share_empty">Impossível compartilhar uma lista vazia</string>
@@ -587,8 +587,8 @@
     </plurals>
     <string name="restore">Restaurar</string>
     <plurals name="tracks">
-        <item quantity="one">%d percurso</item>
-        <item quantity="other">%d percursos</item>
+        <item quantity="one">%d trajeto</item>
+        <item quantity="other">%d trajetos</item>
     </plurals>
     <string name="privacy_policy">Política de privacidade</string>
     <string name="terms_of_use">Termos de uso</string>
@@ -771,19 +771,20 @@
     <!-- Disclaimer summary shown when Power Saving Mode is enabled -->
     <string name="power_save_dialog_summary">Para obter uma navegação mais precisa, recomendamos que você desative o modo de economia de energia nas configurações de bateria do telefone.</string>
     <!-- Prompt to start recording a track. -->
-    <string name="start_track_recording">Gravar rota</string>
+    <string name="start_track_recording">Gravar trilha</string>
     <!-- Prompt for stopping a track recording. -->
-    <string name="stop_track_recording">Parar gravação de rota</string>
+    <string name="stop_track_recording">Parar gravação de trilha</string>
     <!-- Title for the "Stop Without Saving" action for the alert when saving a track recording. -->
     <string name="stop_without_saving">Parar sem salvar</string>
     <!-- Title for the "Stop Without Saving" action for the alert when saving a track recording. -->
     <string name="continue_recording">Continuar gravação</string>
     <!-- Title for the alert when saving a track recording. -->
-    <string name="track_recording_alert_title">Salvar gravação em favoritos e trilhas?</string>
+    <string name="track_recording_alert_title">Salvar em Favoritos e Trilhas?</string>
     <!-- Message for the toast when saving the track recording is finished but nothing to save. -->
     <string name="track_recording_toast_nothing_to_save">A trilha está vazia - não há nada para salvar</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Não é possível exibir a caixa de diálogo de seleção de pastas porque nenhum aplicativo adequado está instalado no seu dispositivo. Instale um aplicativo gerenciador de arquivos e tente novamente</string>
+    <string name="uri_open_location_failed">Nenhum aplicativo instalado que possa abrir o local</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Endereço/Bloco</string>
@@ -1151,11 +1152,10 @@
     <string name="type.highway.motorway_link.bridge">Ponte</string>
     <!-- These translations are used for all type.highway.*.tunnel. -->
     <string name="type.highway.motorway_link.tunnel">Túnel</string>
-    <string name="type.highway.path">Caminho</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Caminho</string>
+    <string name="type.highway.path.difficult">Trilha difícil ou pouco visível</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Caminho</string>
+    <string name="type.highway.path.expert">Trilha muito difícil ou indistinguível</string>
     <string name="type.highway.path.bicycle">Caminho para ciclistas</string>
     <string name="type.highway.footway.bicycle">Caminho para ciclistas</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
@@ -1258,7 +1258,6 @@
     <string name="type.area_highway.footway">Caminho pedonal</string>
     <string name="type.area_highway.living_street">Rua residencial</string>
     <string name="type.area_highway.motorway">Rodovia</string>
-    <string name="type.area_highway.path">Caminho</string>
     <string name="type.area_highway.pedestrian">Caminho pedonal</string>
     <string name="type.area_highway.primary">Estrada</string>
     <string name="type.area_highway.residential">Rua residencial</string>

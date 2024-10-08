@@ -70,8 +70,6 @@
     <string name="download_country_failed">%s डाउनलोड विफल हो गया है</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">एक नई सूची जोड़ें</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">बुकमार्क रंग</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">बुकमार्क सूची का नाम</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -598,6 +596,7 @@
     <string name="track_recording_toast_nothing_to_save">मार्ग खाली है - बचाने के लिए कुछ नहीं</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">फ़ोल्डर चयन संवाद प्रदर्शित करने में असमर्थ क्योंकि आपके डिवाइस पर कोई उपयुक्त ऐप इंस्टॉल नहीं है। कृपया एक फ़ाइल प्रबंधक ऐप इंस्टॉल करें और पुनः प्रयास करें।</string>
+    <string name="uri_open_location_failed">कोई ऐप इंस्टॉल नहीं है जो लोकेशन खोल सके</string>
 
     <!-- SECTION: Types -->
     <string name="type.aerialway.cable_car">आकाशीय रज्जुमार्ग</string>
@@ -873,9 +872,9 @@
     <string name="type.highway.motorway_link">फ्रीवे प्रवेश</string>
     <string name="type.highway.path">पथ</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">पथ</string>
+    <string name="type.highway.path.difficult">कठिन या ख़राब दिखाई देने वाला मार्ग</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">पथ</string>
+    <string name="type.highway.path.expert">बहुत कठिन या अप्रभेद्य पथ</string>
     <string name="type.highway.path.bicycle">पथ</string>
     <string name="type.highway.footway.bicycle">पथ</string>
     <string name="type.highway.path.horse">पथ</string>

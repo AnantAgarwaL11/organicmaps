@@ -68,8 +68,6 @@
     <string name="download_country_failed">η λήψη %s απέτυχε</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Δημιουργία νέας λίστας</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Χρώμα αγαπημένου</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Όνομα λίστας αγαπημένων</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -863,6 +861,7 @@
     <string name="track_recording_toast_nothing_to_save">Η διαδρομή είναι άδεια - δεν υπάρχει τίποτα να αποθηκεύσετε</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Δεν είναι δυνατή η εμφάνιση του διαλόγου επιλογής φακέλου επειδή δεν είναι εγκατεστημένη η κατάλληλη εφαρμογή στη συσκευή σας. Εγκαταστήστε μια εφαρμογή διαχείρισης αρχείων και δοκιμάστε ξανά</string>
+    <string name="uri_open_location_failed">Δεν υπάρχει εγκατεστημένη εφαρμογή που να μπορεί να ανοίξει την τοποθεσία</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Διεύθυνση/Μπλοκ</string>
@@ -1228,9 +1227,9 @@
     <string name="type.highway.motorway_link.tunnel">Σήραγγα</string>
     <string name="type.highway.path">Διαδρομή</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Διαδρομή</string>
+    <string name="type.highway.path.difficult">Δύσκολη ή ελάχιστα ορατή διαδρομή</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Διαδρομή</string>
+    <string name="type.highway.path.expert">Πολύ δύσκολο ή δυσδιάκριτο μονοπάτι</string>
     <string name="type.highway.path.bicycle">Διαδρομή</string>
     <string name="type.highway.footway.bicycle">Διαδρομή</string>
     <!-- These translations are used for all type.highway.*.bridge. -->

@@ -67,8 +67,6 @@
     <string name="download_country_failed">%s Herunterladen fehlgeschlagen</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Neue Liste hinzufügen</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Lesezeichenfarbe</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Name der Lesezeichenliste</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -865,6 +863,7 @@
     <string name="track_recording_toast_nothing_to_save">Route ist leer - nichts zu speichern</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Das Dialogfeld zur Ordnerauswahl kann nicht angezeigt werden, da keine geeignete App auf Ihrem Gerät installiert ist. Bitte installieren Sie eine Dateimanager-App und versuchen Sie es erneut</string>
+    <string name="uri_open_location_failed">Keine App installiert, die den Speicherort öffnen kann</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Adresse/Block</string>

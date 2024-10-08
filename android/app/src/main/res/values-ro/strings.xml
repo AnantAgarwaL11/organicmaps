@@ -67,8 +67,6 @@
     <string name="download_country_failed">Descărcarea %s a eșuat</string>
     <!-- "Add new bookmark list" dialog title -->
     <string name="add_new_set">Adaugă o listă nouă</string>
-    <!-- Bookmark Color dialog title -->
-    <string name="bookmark_color">Culoare loc preferat</string>
     <!-- Add Bookmark list dialog - hint when the list name is empty -->
     <string name="bookmark_set_name">Denumirea listei</string>
     <!-- Should be used in the bookmarks-only context, see bookmarks_and_tracks if tracks are also implied. -->
@@ -843,6 +841,7 @@
     <string name="track_recording_toast_nothing_to_save">Traseul este gol - nu este nimic de salvat</string>
     <!-- Error message when there are no File Manager apps installed to select a folder when importing Bookmarks and Tracks -->
     <string name="error_no_file_manager_app">Nu se poate afișa dialogul de selectare a dosarelor deoarece pe dispozitivul dvs. nu este instalată nicio aplicație adecvată. Vă rugăm să instalați o aplicație de gestionare a fișierelor și să încercați din nou</string>
+    <string name="uri_open_location_failed">Nu există nicio aplicație instalată care să poată deschide locația</string>
 
     <!-- SECTION: Types -->
     <string name="type.addr_interpolation">Adresă/Bloc</string>
@@ -1195,9 +1194,9 @@
     <string name="type.highway.motorway_link.tunnel">Tunel</string>
     <string name="type.highway.path">Cale</string>
     <!-- Hiking trail tagged as sac_scale=demanding_mountain_hiking (3 of 6) or trail_visibility=bad. -->
-    <string name="type.highway.path.difficult">Cale</string>
+    <string name="type.highway.path.difficult">Traseu dificil sau puțin vizibil</string>
     <!-- Hiking trail tagged as sac_scale=alpine_hiking (4+ of 6) or trail_visibility=horrible or more extreme. -->
-    <string name="type.highway.path.expert">Cale</string>
+    <string name="type.highway.path.expert">Traseu foarte dificil sau imposibil de distins</string>
     <string name="type.highway.path.bicycle">Cale</string>
     <string name="type.highway.footway.bicycle">Cale</string>
     <!-- These translations are used for all type.highway.*.bridge. -->
